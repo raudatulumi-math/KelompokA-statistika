@@ -1,5 +1,6 @@
 def mean(data):
-    return sum(data) / len(data)
+    import numpy as np
+    return np.mean(data)
 
 def median(data):
     n = len(data)
