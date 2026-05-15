@@ -1,5 +1,4 @@
 def mean(data):
-    import numpy as np
     return np.mean(data)
 
 def median(data):
