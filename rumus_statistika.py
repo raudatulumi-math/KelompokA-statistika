@@ -1,5 +1,5 @@
 def mean(data):
-    return round (sum(data) / len(data), 2)
+    return sum(data) / len(data)
 
 def median(data):
     n = len(data)
